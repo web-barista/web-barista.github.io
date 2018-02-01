@@ -156,6 +156,7 @@ header {
    	flex-direction: row;
    	/*align-self: center;*/
    	justify-content: center;
+   	padding-bottom: 40px;
 }
 
 .navigation__list-element {
