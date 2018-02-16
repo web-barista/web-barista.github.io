@@ -278,6 +278,7 @@ header {
 	font-size: 24px;
 	line-height: normal;
 	margin-bottom: 5px;
+	text-align: center;
 }
 
 .portfolio-item__title a {
@@ -292,16 +293,18 @@ header {
 }
 
 .portfolio-item__text p{
+	text-align: justify;
 	padding: 5px;
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
 
-.portfolio-item__text:hover {
+.portfolio-item:hover {
 	-webkit-border-radius: 5px;
 	        border-radius: 5px;
 	box-shadow: 0.02em 0.2em 0.3em 1px rgba(180,180,180,0.5);
 }
+
 /*-- .........................................
 	
 	PORTFOLIO SINGLE PAGE
